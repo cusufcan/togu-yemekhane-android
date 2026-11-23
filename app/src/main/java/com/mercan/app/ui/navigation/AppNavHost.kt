@@ -23,6 +23,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.compose.LifecycleStartEffect
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.NavHost
@@ -37,6 +38,7 @@ import com.mercan.app.ui.archive.ArchiveWeekScreen
 import com.mercan.app.ui.components.MotionMillis
 import com.mercan.app.ui.settings.SettingsScreen
 import com.mercan.app.ui.today.TodayScreen
+import com.mercan.app.ui.today.WidgetHint
 import com.mercan.app.ui.week.WeekScreen
 import kotlinx.serialization.Serializable
 
@@ -87,7 +89,13 @@ fun AppNavHost(app: AppViewModel) {
                 exitTransition = { fadeOut(tween(MotionMillis)) },
             ) {
                 composable<Today> {
-                    TodayScreen(refresh, retry, onOpenWeek = { nav.openTab(AppTab.WEEK, reselected = true) })
+                    val settings by app.settings.collectAsStateWithLifecycle()
+                    TodayScreen(
+                        onRefresh = refresh,
+                        onRetry = retry,
+                        onOpenWeek = { nav.openTab(AppTab.WEEK, reselected = true) },
+                        widgetHint = { WidgetHint(settings?.widgetHintDone != false, app::dismissWidgetHint) },
+                    )
                 }
                 composable<Week> {
                     WeekScreen(

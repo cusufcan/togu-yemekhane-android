@@ -5,4 +5,6 @@ data class Settings(
     val reminderOn: Boolean = false,
     /** Gün içindeki dakika; 11.30 = 690. */
     val reminderMinute: Int = 690,
+    /** Widget tanıtımı kapatıldı ya da widget eklendi; kart bir daha çıkmaz. */
+    val widgetHintDone: Boolean = false,
 )

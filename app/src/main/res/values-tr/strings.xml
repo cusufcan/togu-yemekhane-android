@@ -49,6 +49,7 @@
     <string name="settings_reminder">Menü hatırlatıcısı</string>
     <string name="settings_reminder_sub">Menü olmayan günlerde gelmez</string>
     <string name="settings_reminder_time">Hatırlatma saati</string>
+    <string name="settings_widget">Ana ekran widget\'ı</string>
     <string name="settings_theme">Tema</string>
     <string name="theme_system">Sistem</string>
     <string name="theme_light">Açık</string>
@@ -66,6 +67,10 @@
     <string name="reminder_title">Bugün: %1$s</string>
     <string name="widget_label">Bugünün menüsü</string>
     <string name="widget_description">Bugünün menüsünü ana ekranda gösterir.</string>
+    <string name="widget_hint_title">Menü ana ekranında dursun</string>
+    <string name="widget_hint_body">Uygulamayı açmadan bugünün yemeğini gör.</string>
+    <string name="widget_add">Widget ekle</string>
+    <string name="action_close">Kapat</string>
     <string name="widget_calories">%1$s kcal</string>
     <string name="widget_weekend_body">Yeni hafta pazartesi başlıyor.</string>
     <string name="widget_missing_title">Menü henüz yok</string>

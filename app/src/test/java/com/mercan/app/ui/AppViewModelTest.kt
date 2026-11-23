@@ -81,5 +81,6 @@ class AppViewModelTest {
         override suspend fun setTheme(theme: ThemeMode) = Unit
         override suspend fun setReminderOn(on: Boolean) = Unit
         override suspend fun setReminderMinute(minute: Int) = Unit
+        override suspend fun dismissWidgetHint() = Unit
     }
 }

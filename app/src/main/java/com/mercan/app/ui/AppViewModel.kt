@@ -22,7 +22,7 @@ import javax.inject.Inject
 @HiltViewModel
 class AppViewModel @Inject constructor(
     private val menus: MenuRepository,
-    settingsRepository: SettingsRepository,
+    private val settingsRepository: SettingsRepository,
     private val background: BackgroundRefresh,
 ) : ViewModel() {
     /** Ayarlar ve menü telefondan okununca dolar; açılış ekranı o zamana dek durur. */
@@ -47,5 +47,9 @@ class AppViewModel @Inject constructor(
             if (!ok && announce) failed.send(Unit)
             announce = false
         }
+    }
+
+    fun dismissWidgetHint() {
+        viewModelScope.launch { settingsRepository.dismissWidgetHint() }
     }
 }

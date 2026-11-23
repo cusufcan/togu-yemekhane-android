@@ -23,6 +23,7 @@ class DataStoreSettingsRepository @Inject constructor(
             theme = ThemeMode.entries.firstOrNull { it.name == saved[Theme] } ?: defaults.theme,
             reminderOn = saved[ReminderOn] ?: defaults.reminderOn,
             reminderMinute = saved[ReminderMinute] ?: defaults.reminderMinute,
+            widgetHintDone = saved[WidgetHintDone] ?: defaults.widgetHintDone,
         )
     }
 
@@ -38,9 +39,14 @@ class DataStoreSettingsRepository @Inject constructor(
         store.edit { it[ReminderMinute] = minute }
     }
 
+    override suspend fun dismissWidgetHint() {
+        store.edit { it[WidgetHintDone] = true }
+    }
+
     private companion object {
         val Theme = stringPreferencesKey("theme")
         val ReminderOn = booleanPreferencesKey("reminder_on")
         val ReminderMinute = intPreferencesKey("reminder_minute")
+        val WidgetHintDone = booleanPreferencesKey("widget_hint_done")
     }
 }

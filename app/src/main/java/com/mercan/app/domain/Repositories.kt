@@ -20,4 +20,5 @@ interface SettingsRepository {
     suspend fun setTheme(theme: ThemeMode)
     suspend fun setReminderOn(on: Boolean)
     suspend fun setReminderMinute(minute: Int)
+    suspend fun dismissWidgetHint()
 }

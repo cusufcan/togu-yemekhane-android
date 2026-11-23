@@ -49,6 +49,7 @@
     <string name="settings_reminder">Menu reminder</string>
     <string name="settings_reminder_sub">Stays silent on days without a menu</string>
     <string name="settings_reminder_time">Reminder time</string>
+    <string name="settings_widget">Home screen widget</string>
     <string name="settings_theme">Theme</string>
     <string name="theme_system">System</string>
     <string name="theme_light">Light</string>
@@ -69,6 +70,10 @@
     <string name="reminder_title">Today: %1$s</string>
     <string name="widget_label">Today\'s menu</string>
     <string name="widget_description">Shows today\'s menu on your home screen.</string>
+    <string name="widget_hint_title">Menu on your home screen</string>
+    <string name="widget_hint_body">See today\'s food without opening the app.</string>
+    <string name="widget_add">Add widget</string>
+    <string name="action_close">Close</string>
     <string name="widget_calories">%1$s kcal</string>
     <string name="widget_weekend_body">The new week starts on Monday.</string>
     <string name="widget_missing_title">No menu yet</string>

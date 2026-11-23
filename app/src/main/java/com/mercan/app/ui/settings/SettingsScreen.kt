@@ -58,6 +58,7 @@ import com.mercan.app.R
 import com.mercan.app.domain.Settings
 import com.mercan.app.domain.ThemeMode
 import com.mercan.app.platform.AppLanguage
+import com.mercan.app.platform.WidgetPin
 import com.mercan.app.ui.components.Segmented
 import com.mercan.app.ui.components.SeyirIcon
 import com.mercan.app.ui.components.SeyirScreen
@@ -72,6 +73,7 @@ fun SettingsScreen(viewModel: SettingsViewModel = hiltViewModel()) {
     val settings = state ?: return
     SeyirScreen(stringResource(R.string.tab_settings)) {
         ReminderCard(settings, viewModel::setReminderOn, viewModel::setReminderMinute)
+        WidgetCard()
         Card {
             Text(stringResource(R.string.settings_theme), style = MaterialTheme.typography.titleSmall)
             Segmented(
@@ -228,6 +230,37 @@ private fun ReminderCard(settings: Settings, onToggle: (Boolean) -> Unit, onMinu
             },
             onDismiss = { picking = false },
         )
+    }
+}
+
+/** Ana ekran uygulaması içeriden eklemeyi desteklemiyorsa görünmez. */
+@Composable
+private fun WidgetCard() {
+    val context = LocalContext.current
+    if (!remember(context) { WidgetPin.isSupported(context) }) return
+    val muted = MaterialTheme.colorScheme.onSurfaceVariant
+    RowCard {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable(onClickLabel = stringResource(R.string.widget_add), role = Role.Button) {
+                    WidgetPin.request(context)
+                }
+                .heightIn(min = 72.dp)
+                .padding(horizontal = 16.dp, vertical = 14.dp),
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Column(Modifier.weight(1f)) {
+                Text(stringResource(R.string.settings_widget), style = MaterialTheme.typography.titleSmall)
+                Text(
+                    text = stringResource(R.string.widget_description),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = muted,
+                )
+            }
+            SeyirIcon(R.drawable.ic_seyir_next, tint = muted)
+        }
     }
 }
 

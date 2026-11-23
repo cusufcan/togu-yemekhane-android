@@ -56,10 +56,11 @@ fun TodayScreen(
     onRefresh: () -> Unit,
     onRetry: () -> Unit,
     onOpenWeek: () -> Unit,
+    widgetHint: @Composable () -> Unit,
     viewModel: MenuViewModel = hiltViewModel(),
 ) {
     val ui by viewModel.state.collectAsStateWithLifecycle()
-    ui?.let { TodayContent(it, onRefresh, onRetry, onOpenWeek, viewModel::select) }
+    ui?.let { TodayContent(it, onRefresh, onRetry, onOpenWeek, widgetHint, viewModel::select) }
 }
 
 @Composable
@@ -68,6 +69,7 @@ private fun TodayContent(
     onRefresh: () -> Unit,
     onRetry: () -> Unit,
     onOpenWeek: () -> Unit,
+    widgetHint: @Composable () -> Unit,
     onSelect: (LocalDate) -> Unit,
 ) {
     val formats = rememberFormats()
@@ -145,6 +147,7 @@ private fun TodayContent(
                         }
                     }
                     FreshLine(ui.refresh.lastSuccess, ui.today)
+                    if (isToday) widgetHint()
                 }
             }
         }
