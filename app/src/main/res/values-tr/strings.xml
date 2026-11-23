@@ -15,7 +15,6 @@
     <string name="format_time">HH.mm</string>
     <string name="main_dish">Ana yemek</string>
     <string name="menu_total">Menü toplamı %1$s kcal</string>
-    <string name="calories">%1$s kcal</string>
     <string name="vegetarian_option">Vejetaryen seçenek</string>
     <string name="updated_today">Bugün %1$s güncellendi</string>
     <string name="updated_yesterday">Dün %1$s güncellendi</string>

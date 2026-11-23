@@ -15,7 +15,6 @@
     <string name="format_time">HH:mm</string>
     <string name="main_dish">Main dish</string>
     <string name="menu_total">Menu total %1$s kcal</string>
-    <string name="calories">%1$s kcal</string>
     <string name="vegetarian_option">Vegetarian option</string>
     <string name="updated_today">Updated today at %1$s</string>
     <string name="updated_yesterday">Updated yesterday at %1$s</string>
