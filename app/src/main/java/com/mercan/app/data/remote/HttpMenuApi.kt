@@ -26,6 +26,8 @@ class HttpMenuApi @Inject constructor(
         connection.readTimeout = TIMEOUT_MS
         // Tarayıcı önbelleği değil, sunucudaki son sürüm istenir.
         connection.useCaches = false
+        // Varsayılan değer cihaz modelini ve Android sürümünü taşır; sunucunun bunlara ihtiyacı yok.
+        connection.setRequestProperty("User-Agent", "togu-yemekhane-android")
         try {
             if (connection.responseCode != HttpURLConnection.HTTP_OK) {
                 throw IOException("HTTP ${connection.responseCode}: $path")
