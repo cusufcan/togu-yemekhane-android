@@ -117,12 +117,17 @@ fun SettingsScreen(viewModel: SettingsViewModel = hiltViewModel()) {
 }
 
 @Composable
-private fun Card(content: @Composable ColumnScope.() -> Unit) = Column(
+private fun Card(content: @Composable ColumnScope.() -> Unit) = RowCard {
+    Column(Modifier.padding(16.dp), content = content)
+}
+
+/** Boşluğu satırlarına bırakan kart: basma efekti satırı kenardan kenara kaplar. */
+@Composable
+private fun RowCard(content: @Composable ColumnScope.() -> Unit) = Column(
     modifier = Modifier
         .fillMaxWidth()
         .clip(RoundedCornerShape(20.dp))
-        .background(MaterialTheme.colorScheme.surfaceContainer)
-        .padding(16.dp),
+        .background(MaterialTheme.colorScheme.surfaceContainer),
     content = content,
 )
 
@@ -140,17 +145,18 @@ private fun ReminderCard(settings: Settings, onToggle: (Boolean) -> Unit, onMinu
     val permission = rememberLauncherForActivityResult(RequestPermission()) { check() }
     val time = LocalTime.ofSecondOfDay(settings.reminderMinute * 60L)
 
-    Card {
+    RowCard {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .heightIn(min = 48.dp)
                 .toggleable(value = settings.reminderOn, role = Role.Switch) { on ->
                     onToggle(on)
                     if (on && !allowed && Build.VERSION.SDK_INT >= 33) {
                         permission.launch(Manifest.permission.POST_NOTIFICATIONS)
                     }
-                },
+                }
+                .heightIn(min = 72.dp)
+                .padding(horizontal = 16.dp, vertical = 14.dp),
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
@@ -176,7 +182,7 @@ private fun ReminderCard(settings: Settings, onToggle: (Boolean) -> Unit, onMinu
             )
         }
         if (settings.reminderOn) {
-            HorizontalDivider(Modifier.padding(top = 8.dp), color = scheme.outlineVariant)
+            HorizontalDivider(Modifier.padding(horizontal = 16.dp), color = scheme.outlineVariant)
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -184,8 +190,8 @@ private fun ReminderCard(settings: Settings, onToggle: (Boolean) -> Unit, onMinu
                         onClickLabel = stringResource(R.string.settings_reminder_time),
                         role = Role.Button,
                     ) { picking = true }
-                    .padding(top = 8.dp)
-                    .heightIn(min = 48.dp),
+                    .heightIn(min = 64.dp)
+                    .padding(horizontal = 16.dp, vertical = 12.dp),
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically,
             ) {
@@ -196,7 +202,10 @@ private fun ReminderCard(settings: Settings, onToggle: (Boolean) -> Unit, onMinu
                 SeyirIcon(R.drawable.ic_seyir_next, tint = scheme.onSurfaceVariant)
             }
             if (!allowed) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
+                Row(
+                    modifier = Modifier.padding(start = 16.dp, end = 4.dp, bottom = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
                     Text(
                         text = stringResource(R.string.notifications_blocked),
                         style = MaterialTheme.typography.bodySmall,
@@ -249,13 +258,7 @@ private fun TimeDialog(initial: LocalTime, onSave: (Int) -> Unit, onDismiss: () 
 @Composable
 private fun AboutCard() {
     val links = LocalUriHandler.current
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(20.dp))
-            .background(MaterialTheme.colorScheme.surfaceContainer)
-            .padding(vertical = 4.dp),
-    ) {
+    RowCard {
         AboutRow(
             label = stringResource(R.string.settings_source),
             value = stringResource(R.string.source_host),
@@ -274,8 +277,8 @@ private fun AboutRow(label: String, value: String, modifier: Modifier = Modifier
     modifier = modifier
         .fillMaxWidth()
         .semantics(mergeDescendants = true) {}
-        .heightIn(min = 48.dp)
-        .padding(horizontal = 16.dp, vertical = 8.dp),
+        .heightIn(min = 56.dp)
+        .padding(horizontal = 16.dp, vertical = 12.dp),
     horizontalArrangement = Arrangement.SpaceBetween,
     verticalArrangement = Arrangement.Center,
     itemVerticalAlignment = Alignment.CenterVertically,
