@@ -34,6 +34,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.mercan.app.R
@@ -52,6 +53,7 @@ fun EmptyState(
     action: @Composable () -> Unit = {},
 ) = Column(
     modifier = modifier.fillMaxWidth(),
+    horizontalAlignment = Alignment.CenterHorizontally,
     verticalArrangement = Arrangement.spacedBy(12.dp),
 ) {
     Box(
@@ -62,11 +64,12 @@ fun EmptyState(
     ) {
         SeyirIcon(glyph, size = 26.dp, tint = MaterialTheme.colorScheme.onPrimaryContainer)
     }
-    Text(title, style = MaterialTheme.typography.headlineLarge)
+    Text(title, style = MaterialTheme.typography.headlineLarge, textAlign = TextAlign.Center)
     Text(
         text = body,
         style = MaterialTheme.typography.bodyLarge,
         color = MaterialTheme.colorScheme.onSurfaceVariant,
+        textAlign = TextAlign.Center,
     )
     action()
 }
