@@ -1,0 +1,136 @@
+{
+  "weekStart": "2026-03-30",
+  "weekEnd": "2026-04-03",
+  "days": [
+    {
+      "date": "2026-03-30",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Körili tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantar soslu makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        },
+        {
+          "name": "Yumurtalı ıspanak",
+          "vegetarian": true
+        }
+      ],
+      "calories": 974
+    },
+    {
+      "date": "2026-03-31",
+      "dishes": [
+        {
+          "name": "Toyga çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Şehriyeli pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Sütlü tatlı",
+          "vegetarian": false
+        },
+        {
+          "name": "Şakşuka",
+          "vegetarian": true
+        }
+      ],
+      "calories": 982
+    },
+    {
+      "date": "2026-04-01",
+      "dishes": [
+        {
+          "name": "Kremalı mantar çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patlıcan musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        },
+        {
+          "name": "Fasulye piyazı",
+          "vegetarian": true
+        }
+      ],
+      "calories": 989
+    },
+    {
+      "date": "2026-04-02",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kuru fasulye",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        },
+        {
+          "name": "İmam bayıldı",
+          "vegetarian": true
+        }
+      ],
+      "calories": 921
+    },
+    {
+      "date": "2026-04-03",
+      "dishes": [
+        {
+          "name": "Sebzeli şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Elbasan tava",
+          "vegetarian": false
+        },
+        {
+          "name": "Mercimekli bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Komposto",
+          "vegetarian": false
+        },
+        {
+          "name": "Gül böreği",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1002
+    }
+  ]
+}

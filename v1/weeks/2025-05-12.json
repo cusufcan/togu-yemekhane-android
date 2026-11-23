@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-05-12",
+  "weekEnd": "2025-05-16",
+  "days": [
+    {
+      "date": "2025-05-12",
+      "dishes": [
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 992
+    },
+    {
+      "date": "2025-05-13",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli et sote",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Sütlaç",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1082
+    },
+    {
+      "date": "2025-05-14",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1136
+    },
+    {
+      "date": "2025-05-15",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk sote",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1011
+    },
+    {
+      "date": "2025-05-16",
+      "dishes": [
+        {
+          "name": "Sebzeli çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patlıcan parmak kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1034
+    }
+  ]
+}

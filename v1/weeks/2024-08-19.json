@@ -1,0 +1,116 @@
+{
+  "weekStart": "2024-08-19",
+  "weekEnd": "2024-08-23",
+  "days": [
+    {
+      "date": "2024-08-19",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Taze fasulye",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 979
+    },
+    {
+      "date": "2024-08-20",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Zerdeçallı tavuk sote",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 992
+    },
+    {
+      "date": "2024-08-21",
+      "dishes": [
+        {
+          "name": "Sebzeli çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 962
+    },
+    {
+      "date": "2024-08-22",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Elbasan tava",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1127
+    },
+    {
+      "date": "2024-08-23",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kavurma",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Salata",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1046
+    }
+  ]
+}

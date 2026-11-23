@@ -1,0 +1,136 @@
+{
+  "weekStart": "2026-09-28",
+  "weekEnd": "2026-10-02",
+  "days": [
+    {
+      "date": "2026-09-28",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk sote",
+          "vegetarian": false
+        },
+        {
+          "name": "Bezelyeli pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        },
+        {
+          "name": "Taze fasulye",
+          "vegetarian": true
+        }
+      ],
+      "calories": 932
+    },
+    {
+      "date": "2026-09-29",
+      "dishes": [
+        {
+          "name": "Kremalı mantar çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        },
+        {
+          "name": "Karışık kızartma",
+          "vegetarian": true
+        }
+      ],
+      "calories": 982
+    },
+    {
+      "date": "2026-09-30",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Çökertme kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Mısırlı pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Baklava",
+          "vegetarian": false
+        },
+        {
+          "name": "Vejetaryen mantı",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1232
+    },
+    {
+      "date": "2026-10-01",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Karışık musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Sütlaç",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantar sote",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1046
+    },
+    {
+      "date": "2026-10-02",
+      "dishes": [
+        {
+          "name": "Ispanak çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Nugget ve patates kızartma",
+          "vegetarian": false
+        },
+        {
+          "name": "Peynirli makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        },
+        {
+          "name": "Gül böreği",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1002
+    }
+  ]
+}

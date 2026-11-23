@@ -1,0 +1,99 @@
+{
+  "weekStart": "2024-10-28",
+  "weekEnd": "2024-11-01",
+  "days": [
+    {
+      "date": "2024-10-28",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1002
+    },
+    {
+      "date": "2024-10-29",
+      "dishes": [],
+      "calories": null
+    },
+    {
+      "date": "2024-10-30",
+      "dishes": [
+        {
+          "name": "Yayla çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patatesli tas kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Kazandibi",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1122
+    },
+    {
+      "date": "2024-10-31",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Etli nohut",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 916
+    },
+    {
+      "date": "2024-11-01",
+      "dishes": [
+        {
+          "name": "Mantar çorbası",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk pirzola",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 987
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "weekStart": "2026-10-26",
+  "weekEnd": "2026-10-30",
+  "days": [
+    {
+      "date": "2026-10-26",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        },
+        {
+          "name": "Yumurtalı ıspanak",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1064
+    },
+    {
+      "date": "2026-10-27",
+      "dishes": [
+        {
+          "name": "Erenler çorbası",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Peynirli makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        },
+        {
+          "name": "Bamya yemeği",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1002
+    },
+    {
+      "date": "2026-10-28",
+      "dishes": [
+        {
+          "name": "Kral çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kıymalı bezelye",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        },
+        {
+          "name": "Patates graten",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1036
+    },
+    {
+      "date": "2026-10-29",
+      "dishes": [],
+      "calories": null
+    },
+    {
+      "date": "2026-10-30",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patlıcan parmak kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Baklava",
+          "vegetarian": false
+        },
+        {
+          "name": "Taze fasulye",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1231
+    }
+  ]
+}

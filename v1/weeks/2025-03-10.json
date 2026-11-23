@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-03-10",
+  "weekEnd": "2025-03-14",
+  "days": [
+    {
+      "date": "2025-03-10",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Etli nohut",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 916
+    },
+    {
+      "date": "2025-03-11",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Tahin helva",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1042
+    },
+    {
+      "date": "2025-03-12",
+      "dishes": [
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Cordon blue, elma dilim patates",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 952
+    },
+    {
+      "date": "2025-03-13",
+      "dishes": [
+        {
+          "name": "Toyga çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1037
+    },
+    {
+      "date": "2025-03-14",
+      "dishes": [
+        {
+          "name": "Kral çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk pirzola",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1009
+    }
+  ]
+}

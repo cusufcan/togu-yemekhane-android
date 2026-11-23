@@ -1,0 +1,116 @@
+{
+  "weekStart": "2026-03-09",
+  "weekEnd": "2026-03-13",
+  "days": [
+    {
+      "date": "2026-03-09",
+      "dishes": [
+        {
+          "name": "Yayla çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patates musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-03-10",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kuru fasulye",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-03-11",
+      "dishes": [
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Körili tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurtlu makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-03-12",
+      "dishes": [
+        {
+          "name": "Toyga çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Mercimekli bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-03-13",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Girit musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Mısırlı pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    }
+  ]
+}

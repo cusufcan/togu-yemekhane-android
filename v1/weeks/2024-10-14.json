@@ -1,0 +1,116 @@
+{
+  "weekStart": "2024-10-14",
+  "weekEnd": "2024-10-18",
+  "days": [
+    {
+      "date": "2024-10-14",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Etli nohut",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 916
+    },
+    {
+      "date": "2024-10-15",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": false
+        },
+        {
+          "name": "Puding",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1047
+    },
+    {
+      "date": "2024-10-16",
+      "dishes": [
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Orman kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1012
+    },
+    {
+      "date": "2024-10-17",
+      "dishes": [
+        {
+          "name": "Kral çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kıymalı ıspanak",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1054
+    },
+    {
+      "date": "2024-10-18",
+      "dishes": [
+        {
+          "name": "Aşçıbaşı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Elbasan tava",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1126
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "weekStart": "2026-02-23",
+  "weekEnd": "2026-02-27",
+  "days": [
+    {
+      "date": "2026-02-23",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk haşlama",
+          "vegetarian": false
+        },
+        {
+          "name": "Mısırlı pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-02-24",
+      "dishes": [
+        {
+          "name": "Toyga çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "İzmir köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Puding",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-02-25",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patatesli tas kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Tahin helva",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-02-26",
+      "dishes": [
+        {
+          "name": "Ispanak çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Karışık musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Mercimekli bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-02-27",
+      "dishes": [
+        {
+          "name": "Aşçıbaşı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk şiş",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Mevsim salata",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    }
+  ]
+}

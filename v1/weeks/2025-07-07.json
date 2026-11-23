@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-07-07",
+  "weekEnd": "2025-07-11",
+  "days": [
+    {
+      "date": "2025-07-07",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1017
+    },
+    {
+      "date": "2025-07-08",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Püreli Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1041
+    },
+    {
+      "date": "2025-07-09",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Çiftlik kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": false
+        },
+        {
+          "name": "Profiterol",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1041
+    },
+    {
+      "date": "2025-07-10",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patlıcan musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1009
+    },
+    {
+      "date": "2025-07-11",
+      "dishes": [
+        {
+          "name": "Sebzeli çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Cordon blue ve patates kızartma",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurtlu makarna salata",
+          "vegetarian": false
+        },
+        {
+          "name": "Tahin helva",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1080
+    }
+  ]
+}

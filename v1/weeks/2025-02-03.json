@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-02-03",
+  "weekEnd": "2025-02-07",
+  "days": [
+    {
+      "date": "2025-02-03",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Etli nohut",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 907
+    },
+    {
+      "date": "2025-02-04",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kaşarlı güveç",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1032
+    },
+    {
+      "date": "2025-02-05",
+      "dishes": [
+        {
+          "name": "Sebzeli çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli misket köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 982
+    },
+    {
+      "date": "2025-02-06",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Et haşlama",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1088
+    },
+    {
+      "date": "2025-02-07",
+      "dishes": [
+        {
+          "name": "Yayla çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk pirzola",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Mevsim salata",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1037
+    }
+  ]
+}

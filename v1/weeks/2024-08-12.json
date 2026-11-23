@@ -1,0 +1,116 @@
+{
+  "weekStart": "2024-08-12",
+  "weekEnd": "2024-08-16",
+  "days": [
+    {
+      "date": "2024-08-12",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1062
+    },
+    {
+      "date": "2024-08-13",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Püreli Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 957
+    },
+    {
+      "date": "2024-08-14",
+      "dishes": [
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Cordon blue ve patates kızartma",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 952
+    },
+    {
+      "date": "2024-08-15",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Et sote",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Supangle",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1096
+    },
+    {
+      "date": "2024-08-16",
+      "dishes": [
+        {
+          "name": "Sebzeli çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Girit musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1044
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "weekStart": "2025-06-02",
+  "weekEnd": "2025-06-06",
+  "days": [
+    {
+      "date": "2025-06-02",
+      "dishes": [
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 992
+    },
+    {
+      "date": "2025-06-03",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Püreli Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1001
+    },
+    {
+      "date": "2025-06-04",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tas kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1206
+    },
+    {
+      "date": "2025-06-05",
+      "dishes": [],
+      "calories": null
+    },
+    {
+      "date": "2025-06-06",
+      "dishes": [],
+      "calories": null
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-09-22",
+  "weekEnd": "2025-09-26",
+  "days": [
+    {
+      "date": "2025-09-22",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Körili tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Cacık",
+          "vegetarian": false
+        }
+      ],
+      "calories": 966
+    },
+    {
+      "date": "2025-09-23",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Misket köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 996
+    },
+    {
+      "date": "2025-09-24",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kavurma",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1057
+    },
+    {
+      "date": "2025-09-25",
+      "dishes": [
+        {
+          "name": "Ispanak çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Mercimekli bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Profiterol",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1072
+    },
+    {
+      "date": "2025-09-26",
+      "dishes": [
+        {
+          "name": "Aşçıbaşı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Akçadağ köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 918
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "weekStart": "2026-06-08",
+  "weekEnd": "2026-06-12",
+  "days": [
+    {
+      "date": "2026-06-08",
+      "dishes": [
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk haşlama",
+          "vegetarian": false
+        },
+        {
+          "name": "Garnitürlü pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Cacık",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": true
+        }
+      ],
+      "calories": 912
+    },
+    {
+      "date": "2026-06-09",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        },
+        {
+          "name": "Kabak mücver",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1037
+    },
+    {
+      "date": "2026-06-10",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Çökertme kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Şehriyeli pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Kadayıf",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantar sote",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1222
+    },
+    {
+      "date": "2026-06-11",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patlıcan musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        },
+        {
+          "name": "Karışık kızartma",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1034
+    },
+    {
+      "date": "2026-06-12",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tas kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Tahin helva",
+          "vegetarian": false
+        },
+        {
+          "name": "Fasulye piyazı",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1115
+    }
+  ]
+}

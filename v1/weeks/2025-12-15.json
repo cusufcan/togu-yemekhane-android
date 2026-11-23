@@ -1,0 +1,136 @@
+{
+  "weekStart": "2025-12-15",
+  "weekEnd": "2025-12-19",
+  "days": [
+    {
+      "date": "2025-12-15",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kuru fasulye",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurtlu şaksuka",
+          "vegetarian": true
+        }
+      ],
+      "calories": 902
+    },
+    {
+      "date": "2025-12-16",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Körili tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        },
+        {
+          "name": "Karnabahar graten",
+          "vegetarian": true
+        }
+      ],
+      "calories": 981
+    },
+    {
+      "date": "2025-12-17",
+      "dishes": [
+        {
+          "name": "Mantar çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Misket köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Cevizli peynirli erişte",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        },
+        {
+          "name": "Pırasa yemeği",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1162
+    },
+    {
+      "date": "2025-12-18",
+      "dishes": [
+        {
+          "name": "Yayla çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Mercimekli bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Sakızlı muhallebi",
+          "vegetarian": false
+        },
+        {
+          "name": "Fasulye piyazı",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1052
+    },
+    {
+      "date": "2025-12-19",
+      "dishes": [
+        {
+          "name": "Bacaklı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Akçadağ köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        },
+        {
+          "name": "Yumurtalı ıspanak",
+          "vegetarian": true
+        }
+      ],
+      "calories": 968
+    }
+  ]
+}

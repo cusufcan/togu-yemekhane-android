@@ -1,0 +1,116 @@
+{
+  "weekStart": "2024-11-18",
+  "weekEnd": "2024-11-22",
+  "days": [
+    {
+      "date": "2024-11-18",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kuru fasulye",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 916
+    },
+    {
+      "date": "2024-11-19",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk pirzola",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Baklava",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1157
+    },
+    {
+      "date": "2024-11-20",
+      "dishes": [
+        {
+          "name": "Sebzeli çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Garnitürlü köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 962
+    },
+    {
+      "date": "2024-11-21",
+      "dishes": [
+        {
+          "name": "Mantar çorbası",
+          "vegetarian": false
+        },
+        {
+          "name": "Elbasan tava",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 967
+    },
+    {
+      "date": "2024-11-22",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Çiftlik kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Keşkül",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1142
+    }
+  ]
+}

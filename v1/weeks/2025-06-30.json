@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-06-30",
+  "weekEnd": "2025-07-04",
+  "days": [
+    {
+      "date": "2025-06-30",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kıymalı bezelye",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Keşkül",
+          "vegetarian": false
+        }
+      ],
+      "calories": 957
+    },
+    {
+      "date": "2025-07-01",
+      "dishes": [
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Garnitürlü köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 987
+    },
+    {
+      "date": "2025-07-02",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk pirzola",
+          "vegetarian": false
+        },
+        {
+          "name": "Mısırlı pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Salata",
+          "vegetarian": false
+        }
+      ],
+      "calories": 941
+    },
+    {
+      "date": "2025-07-03",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kaşarlı güveç",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1206
+    },
+    {
+      "date": "2025-07-04",
+      "dishes": [
+        {
+          "name": "Bacaklı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Çökertme kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Şehriyeli pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1063
+    }
+  ]
+}

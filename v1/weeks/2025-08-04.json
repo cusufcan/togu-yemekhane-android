@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-08-04",
+  "weekEnd": "2025-08-08",
+  "days": [
+    {
+      "date": "2025-08-04",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk haşlama",
+          "vegetarian": false
+        },
+        {
+          "name": "Şehriyeli pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1050
+    },
+    {
+      "date": "2025-08-05",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "İzmir köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Tel şehriyeli bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1021
+    },
+    {
+      "date": "2025-08-06",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Karışık kızartma",
+          "vegetarian": false
+        },
+        {
+          "name": "Kıymalı makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1028
+    },
+    {
+      "date": "2025-08-07",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk pirzola",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Salata",
+          "vegetarian": false
+        }
+      ],
+      "calories": 937
+    },
+    {
+      "date": "2025-08-08",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kadınbudu köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Fasulye piyaz",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 964
+    }
+  ]
+}

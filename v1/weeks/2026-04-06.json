@@ -1,0 +1,136 @@
+{
+  "weekStart": "2026-04-06",
+  "weekEnd": "2026-04-10",
+  "days": [
+    {
+      "date": "2026-04-06",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk haşlama",
+          "vegetarian": false
+        },
+        {
+          "name": "Garnitürlü pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Cacık",
+          "vegetarian": false
+        },
+        {
+          "name": "Patates graten",
+          "vegetarian": true
+        }
+      ],
+      "calories": 942
+    },
+    {
+      "date": "2026-04-07",
+      "dishes": [
+        {
+          "name": "Yayla çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "İrmik helvası",
+          "vegetarian": false
+        },
+        {
+          "name": "Karışık kızartma",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1037
+    },
+    {
+      "date": "2026-04-08",
+      "dishes": [
+        {
+          "name": "Aşçıbaşı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": false
+        },
+        {
+          "name": "Çikolatalı puding",
+          "vegetarian": false
+        },
+        {
+          "name": "Pırasa yemeği",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1101
+    },
+    {
+      "date": "2026-04-09",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tavuk pirzola",
+          "vegetarian": false
+        },
+        {
+          "name": "Tel şehriyeli bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Mevsim salata",
+          "vegetarian": false
+        },
+        {
+          "name": "Barbunya pilaki",
+          "vegetarian": true
+        }
+      ],
+      "calories": 922
+    },
+    {
+      "date": "2026-04-10",
+      "dishes": [
+        {
+          "name": "Bacaklı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patatesli tas kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kabak mücver",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1226
+    }
+  ]
+}

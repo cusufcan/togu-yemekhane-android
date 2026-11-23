@@ -1,0 +1,99 @@
+{
+  "weekStart": "2025-10-27",
+  "weekEnd": "2025-10-31",
+  "days": [
+    {
+      "date": "2025-10-27",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 986
+    },
+    {
+      "date": "2025-10-28",
+      "dishes": [
+        {
+          "name": "Aşçıbaşı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Sakızlı muhallebi",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1006
+    },
+    {
+      "date": "2025-10-29",
+      "dishes": [],
+      "calories": null
+    },
+    {
+      "date": "2025-10-30",
+      "dishes": [
+        {
+          "name": "Bacaklı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Çökertme kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Mercimekli bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1057
+    },
+    {
+      "date": "2025-10-31",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Garnitürlü köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Şehriyeli pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Bülbül yuvası",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1171
+    }
+  ]
+}

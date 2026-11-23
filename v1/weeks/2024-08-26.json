@@ -1,0 +1,99 @@
+{
+  "weekStart": "2024-08-26",
+  "weekEnd": "2024-08-30",
+  "days": [
+    {
+      "date": "2024-08-26",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1002
+    },
+    {
+      "date": "2024-08-27",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Nugget patates kızartması",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": false
+        },
+        {
+          "name": "Puding",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1037
+    },
+    {
+      "date": "2024-08-28",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tas kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Şehriyeli pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Kadayıf",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1227
+    },
+    {
+      "date": "2024-08-29",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Yufka kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yufka kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Barbunya piyazı",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1249
+    },
+    {
+      "date": "2024-08-30",
+      "dishes": [],
+      "calories": null
+    }
+  ]
+}

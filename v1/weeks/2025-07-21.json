@@ -1,0 +1,112 @@
+{
+  "weekStart": "2025-07-21",
+  "weekEnd": "2025-07-25",
+  "days": [
+    {
+      "date": "2025-07-21",
+      "dishes": [
+        {
+          "name": "Fırın tavuk nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Şehriye çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 950
+    },
+    {
+      "date": "2025-07-22",
+      "dishes": [
+        {
+          "name": "Patlıcan parmak kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1020
+    },
+    {
+      "date": "2025-07-23",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Misket köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Sütlaç",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1041
+    },
+    {
+      "date": "2025-07-24",
+      "dishes": [
+        {
+          "name": "Mısırlı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Ankara tava",
+          "vegetarian": false
+        },
+        {
+          "name": "Fasulye piyaz",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 945
+    },
+    {
+      "date": "2025-07-25",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Tas kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Bülbül yuvası",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1236
+    }
+  ]
+}

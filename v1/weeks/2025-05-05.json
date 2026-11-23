@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-05-05",
+  "weekEnd": "2025-05-09",
+  "days": [
+    {
+      "date": "2025-05-05",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kavurma",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "İrmik helvası",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1147
+    },
+    {
+      "date": "2025-05-06",
+      "dishes": [
+        {
+          "name": "Domates çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Körili tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Peynirli erişte",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 964
+    },
+    {
+      "date": "2025-05-07",
+      "dishes": [
+        {
+          "name": "Yayla çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Garnitürlü köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Profiterol",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1027
+    },
+    {
+      "date": "2025-05-08",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Çiftlik kebap",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1051
+    },
+    {
+      "date": "2025-05-09",
+      "dishes": [
+        {
+          "name": "Bacaklı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Ankara tava",
+          "vegetarian": false
+        },
+        {
+          "name": "Barbunya pilaki",
+          "vegetarian": false
+        },
+        {
+          "name": "Komposto",
+          "vegetarian": false
+        }
+      ],
+      "calories": 979
+    }
+  ]
+}

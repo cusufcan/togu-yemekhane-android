@@ -1,0 +1,116 @@
+{
+  "weekStart": "2025-09-29",
+  "weekEnd": "2025-10-03",
+  "days": [
+    {
+      "date": "2025-09-29",
+      "dishes": [
+        {
+          "name": "Şehriyeli tavuk suyu çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Püreli Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 999
+    },
+    {
+      "date": "2025-09-30",
+      "dishes": [
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patatesli et sote",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Kadayıf",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1236
+    },
+    {
+      "date": "2025-10-01",
+      "dishes": [
+        {
+          "name": "Sebzeli çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Şehriyeli pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1002
+    },
+    {
+      "date": "2025-10-02",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Sebzeli et türlü",
+          "vegetarian": false
+        },
+        {
+          "name": "Peynirli cevizli erişte",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1016
+    },
+    {
+      "date": "2025-10-03",
+      "dishes": [
+        {
+          "name": "Kremalı mantar çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Patlıcan musakka",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Sütlaç",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1027
+    }
+  ]
+}

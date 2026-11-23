@@ -1,0 +1,116 @@
+{
+  "weekStart": "2024-11-11",
+  "weekEnd": "2024-11-15",
+  "days": [
+    {
+      "date": "2024-11-11",
+      "dishes": [
+        {
+          "name": "Yayla çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve",
+          "vegetarian": false
+        }
+      ],
+      "calories": 997
+    },
+    {
+      "date": "2024-11-12",
+      "dishes": [
+        {
+          "name": "Mantar çorbası",
+          "vegetarian": false
+        },
+        {
+          "name": "Hasanpaşa köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Mısırlı pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Tahin helva",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1017
+    },
+    {
+      "date": "2024-11-13",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kıymalı ıspanak",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": 969
+    },
+    {
+      "date": "2024-11-14",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Mantarlı et sote",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Meyve suyu",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1076
+    },
+    {
+      "date": "2024-11-15",
+      "dishes": [
+        {
+          "name": "Mısır çorbası",
+          "vegetarian": false
+        },
+        {
+          "name": "Kadınbudu köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Barbunya pilaki",
+          "vegetarian": false
+        },
+        {
+          "name": "Tulumba",
+          "vegetarian": false
+        }
+      ],
+      "calories": 1090
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "weekStart": "2025-12-29",
+  "weekEnd": "2026-01-02",
+  "days": [
+    {
+      "date": "2025-12-29",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kıymalı nohut",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Turşu",
+          "vegetarian": false
+        },
+        {
+          "name": "Taze fasulye",
+          "vegetarian": true
+        }
+      ],
+      "calories": 926
+    },
+    {
+      "date": "2025-12-30",
+      "dishes": [
+        {
+          "name": "Tavuk suyu çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Ankara tava",
+          "vegetarian": false
+        },
+        {
+          "name": "Fasulye piyazı",
+          "vegetarian": false
+        },
+        {
+          "name": "Sütlü tatlı",
+          "vegetarian": false
+        },
+        {
+          "name": "Karışık kızartma",
+          "vegetarian": true
+        }
+      ],
+      "calories": 945
+    },
+    {
+      "date": "2025-12-31",
+      "dishes": [
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kaşarlı tas kebabı",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohutlu pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Baklava",
+          "vegetarian": false
+        },
+        {
+          "name": "Pırasa yemeği",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1202
+    },
+    {
+      "date": "2026-01-01",
+      "dishes": [],
+      "calories": null
+    },
+    {
+      "date": "2026-01-02",
+      "dishes": [
+        {
+          "name": "Toyga çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Misket köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Tahin helva",
+          "vegetarian": false
+        },
+        {
+          "name": "Yumurtalı ıspanak",
+          "vegetarian": true
+        }
+      ],
+      "calories": 1017
+    }
+  ]
+}

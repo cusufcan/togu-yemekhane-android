@@ -1,0 +1,82 @@
+{
+  "weekStart": "2026-03-16",
+  "weekEnd": "2026-03-20",
+  "days": [
+    {
+      "date": "2026-03-16",
+      "dishes": [
+        {
+          "name": "Mantar çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Çiftlik köfte",
+          "vegetarian": false
+        },
+        {
+          "name": "Peynirli makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Kazandibi",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-03-17",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Beşamel soslu tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Mevsim salata",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-03-18",
+      "dishes": [
+        {
+          "name": "Bacaklı çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Ankara tava",
+          "vegetarian": false
+        },
+        {
+          "name": "Fasülye piyazı",
+          "vegetarian": false
+        },
+        {
+          "name": "Yoğurt",
+          "vegetarian": false
+        }
+      ],
+      "calories": null
+    },
+    {
+      "date": "2026-03-19",
+      "dishes": [],
+      "calories": null
+    },
+    {
+      "date": "2026-03-20",
+      "dishes": [],
+      "calories": null
+    }
+  ]
+}

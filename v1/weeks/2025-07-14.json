@@ -1,0 +1,99 @@
+{
+  "weekStart": "2025-07-14",
+  "weekEnd": "2025-07-18",
+  "days": [
+    {
+      "date": "2025-07-14",
+      "dishes": [
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Etli taze fasulye",
+          "vegetarian": false
+        },
+        {
+          "name": "Pirinç pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Cacık",
+          "vegetarian": false
+        }
+      ],
+      "calories": 926
+    },
+    {
+      "date": "2025-07-15",
+      "dishes": [],
+      "calories": null
+    },
+    {
+      "date": "2025-07-16",
+      "dishes": [
+        {
+          "name": "Kıymalı ıspanak",
+          "vegetarian": false
+        },
+        {
+          "name": "Makarna",
+          "vegetarian": false
+        },
+        {
+          "name": "Mercimek çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kadayıf tatlısı",
+          "vegetarian": false
+        }
+      ],
+      "calories": 850
+    },
+    {
+      "date": "2025-07-17",
+      "dishes": [
+        {
+          "name": "Fırın tavuk",
+          "vegetarian": false
+        },
+        {
+          "name": "Bulgur pilavı",
+          "vegetarian": false
+        },
+        {
+          "name": "Soğuk çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Kazandibi",
+          "vegetarian": false
+        }
+      ],
+      "calories": 700
+    },
+    {
+      "date": "2025-07-18",
+      "dishes": [
+        {
+          "name": "Kavurma",
+          "vegetarian": false
+        },
+        {
+          "name": "Nohut pirinç pilav",
+          "vegetarian": false
+        },
+        {
+          "name": "Ezogelin çorba",
+          "vegetarian": false
+        },
+        {
+          "name": "Ayran",
+          "vegetarian": false
+        }
+      ],
+      "calories": 760
+    }
+  ]
+}
