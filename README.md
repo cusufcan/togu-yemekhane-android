@@ -58,4 +58,5 @@ The source code is published for viewing only. Copying, modifying, redistributin
 
 ## Contact
 
-[Open an issue](https://github.com/cusufcan/togu-yemekhane-android/issues) for questions and bug reports.
+- LinkedIn: [linkedin.com/in/cusufcan](https://linkedin.com/in/cusufcan)
+- Email: [yusufcanmercan.info@gmail.com](mailto:yusufcanmercan.info@gmail.com)
