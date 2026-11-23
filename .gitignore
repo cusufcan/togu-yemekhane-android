@@ -1,0 +1,22 @@
+# Derleme çıktıları
+build/
+.gradle/
+.kotlin/
+captures/
+*.apk
+*.aab
+
+# Yerel ayarlar ve sırlar (repoya asla girmez)
+local.properties
+key.properties
+*.jks
+*.keystore
+google-services.json
+*service-account*.json
+
+# IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store
