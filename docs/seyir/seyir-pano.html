@@ -102,6 +102,14 @@ svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke
 .wd h3{font:700 23px/28px Inter,system-ui,sans-serif;margin:4px 0}.wd p{margin:0;color:var(--v)}
 .wd .sub{display:flex;justify-content:space-between}
 .dock{display:flex;justify-content:space-around;padding-bottom:20px}.dock i{width:52px;height:52px;border-radius:26px;background:var(--su);opacity:.55}
+.srch{display:flex;align-items:center;gap:12px;min-height:52px;border-radius:26px;background:var(--h);padding:0 18px;color:var(--v)}
+.srch input{flex:1;min-width:0;border:0;background:none;outline:0;color:var(--on);font:400 16px/23px Inter,system-ui,sans-serif}
+.srch input::placeholder{color:var(--v);opacity:1}.srch:focus-within{outline:2px solid var(--p)}
+.mon{font:700 11px/15px Inter,system-ui,sans-serif;padding:8px 4px 0}
+.aw{display:flex;align-items:center;gap:14px;background:var(--c);border-radius:20px;padding:14px 16px;width:100%;min-height:76px}
+.aw .m{flex:1;min-width:0}.aw b{display:block;font:600 16px/23px Inter,system-ui,sans-serif}
+.aw span{display:block;font-size:12px;line-height:17px;color:var(--v)}.aw mark{background:var(--pc);color:var(--opc);border-radius:4px}
+.list{display:flex;flex-direction:column;gap:12px}
 </style>
 </head>
 <body>
@@ -114,11 +122,14 @@ svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke
 <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.500"/><path d="M12 7v5l3 2"/></symbol>
 <symbol id="bell" viewBox="0 0 24 24"><path d="M18 9a6 6 0 0 0-12 0c0 5-1 6-2 7h16c-1-1-2-2-2-7m-8 10a2 2 0 0 0 4 0"/></symbol>
 <symbol id="next" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+<symbol id="arc" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="5" rx="1.500"/><path d="M5 9v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9M10 13h4"/></symbol>
+<symbol id="find" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.500"/><path d="m16 16 4.500 4.500"/></symbol>
+<symbol id="back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
 <symbol id="off" viewBox="0 0 24 24"><path d="M4 4l16 16M5 10a11 11 0 0 1 4-2m4-.4A11 11 0 0 1 19 10M8 14a6 6 0 0 1 4-1.500M12 18h.01"/></symbol>
 </svg>
 <div class="page">
 <h1>TOGÜ Yemekhane</h1>
-<p class="intro">Seyir ile mockup panosu. Menüler 23–27 Kasım 2026 haftasının gerçek verisi. Gün seçici, ayarlar, “Tekrar dene” ve ekran altındaki durum seçiciler çalışır; diğer düğmeler görüntüdür.</p>
+<p class="intro">Seyir ile mockup panosu. Menüler 23–27 Kasım 2026 haftasının gerçek verisi. Gün seçici, ayarlar, “Tekrar dene” ve ekran altındaki durum seçiciler çalışır; diğer düğmeler görüntüdür. Arşiv ekranındaki geçmiş haftalar örnektir.</p>
 <div class="ctls">
 <div class="grp" data-ctl="pal" role="group" aria-label="Renk"><button data-v="mor" aria-pressed="true">Seyir moru</button><button data-v="yesil" aria-pressed="false">TOGÜ yeşili</button></div>
 <div class="grp" data-ctl="tema" role="group" aria-label="Tema"><button data-v="karma" aria-pressed="true">Karma</button><button data-v="acik" aria-pressed="false">Hepsi açık</button><button data-v="koyu" aria-pressed="false">Hepsi koyu</button></div>
@@ -141,7 +152,7 @@ const today=(sel=0)=>{const d=W[sel],[c,m,...r]=d[3];return `<div class="scr">${
 <div class="veg">${i("leaf")}<div><span>Vejetaryen seçenek</span><b>${d[4]}</b></div></div>
 <div class="fresh">${i("clock")}Bugün 08.12'de güncellendi</div></div>${nav(0)}`};
 const wk=(d,now)=>`<div class="wk ${now?"now":""}"><div class="d">${d[0]}<b>${d[2]}</b></div><div class="m"><b>${d[3][1]}</b><span>${[d[3][0],...d[3].slice(2)].join(", ")}</span></div></div>`;
-const week=()=>`<div class="scr">${top_("Hafta","23–27 Kasım")}${W.map((d,k)=>wk(d,!k)).join("")}<div class="fresh">${i("clock")}Bugün 08.12'de güncellendi</div></div>${nav(1)}`;
+const week=()=>`<div class="scr"><div class="top"><div><h2>Hafta</h2><div class="sub">23–27 Kasım</div></div><button class="ib" aria-label="Arşiv">${i("arc")}</button><button class="ib" aria-label="Yenile">${i("ref")}</button></div>${W.map((d,k)=>wk(d,!k)).join("")}<div class="fresh">${i("clock")}Bugün 08.12'de güncellendi</div></div>${nav(1)}`;
 const none=k=>`<div class="scr">${top_("Bugün",k?"28 Kasım Cumartesi":"25 Kasım Çarşamba")}<div class="ctr"><div class="ic">${i("today")}</div><h3>${k?"Hafta sonu menü yok":"Bugün için menü yok"}</h3><p>${k?"Yeni haftanın menüsü yayınlanınca burada görünecek.":"Sayfada bugüne ait yemek yok. Tatil olabilir."}</p><button class="btn t">${k?"Biten haftaya bak":"Haftanın kalanına bak"}</button></div></div>${nav(0)}`;
 const stale=()=>`<div class="scr">${top_("Bugün","30 Kasım Pazartesi")}<div class="warn">${i("off")}<div><b>Bu haftanın menüsü alınamadı</b><p>İnternet gelince kendiliğinden yenilenir. Aşağıdaki menü geçen haftanın.</p></div></div><div class="eyebrow" style="padding:8px 4px 0">Son indirilen: 23–27 Kasım</div>${W.map(d=>wk(d)).join("")}</div>${nav(0)}`;
 const first=k=>k?`<div class="scr">${top_("Bugün","23 Kasım Pazartesi",false)}<div class="ctr"><div class="ic">${i("off")}</div><h3>Menü alınamadı</h3><p>İnternet bağlantını kontrol et. Menü bir kez indikten sonra internetsiz de açılır.</p><button class="btn" data-retry>${i("ref")}Tekrar dene</button></div></div>${nav(0)}`
@@ -155,6 +166,23 @@ const sett=()=>`<div class="scr">${top_("Ayarlar","",false)}
 <div class="sub" style="padding:0 4px">Bağımsız bir uygulamadır, üniversitenin resmî uygulaması değildir. Yemek adları kaynaktaki gibi gösterilir.</div></div>${nav(2)}`;
 const home=()=>`<div class="scr"><div class="nt"><div class="ap">${i("today")}</div><div><div class="sub">Yemekhane · 11.30</div><b>Bugün: Hasanpaşa köfte</b><p>Ezogelin çorba, bulgur pilavı, çikolatalı puding</p></div></div>
 <div><div class="wd"><div class="sub"><span>23 Kasım Pazartesi</span><span>1.056 kcal</span></div><h3>Hasanpaşa köfte</h3><p>Ezogelin çorba<br>Bulgur pilavı<br>Çikolatalı puding</p></div></div><div class="dock"><i></i><i></i><i></i><i></i></div></div>`;
+// Örnek geçmiş haftalar; gerçek arşiv robotla birlikte dolar.
+const day=(s,n,f,v,k)=>[s,"",n,f,v,k];
+const A=[["16–20 Kasım","Kasım 2026",[day("Pzt",16,["Mercimek çorba","Orman kebabı","Pirinç pilavı","Cacık"],"Zeytinyağlı fasulye",1010),day("Sal",17,["Domates çorba","Tavuk sote","Makarna","Meyve"],"Mantarlı makarna",965),day("Çar",18,["Ezogelin çorba","Kuru fasulye","Pirinç pilavı","Turşu"],"Sebzeli güveç",1040),day("Per",19,["Yayla çorba","İzmir köfte","Bulgur pilavı","Sütlaç"],"Patates graten",1085),day("Cum",20,["Tarhana çorba","Fırın tavuk","Şehriyeli pilav","Salata"],"Ispanak yemeği",990)]],
+["9–13 Kasım","Kasım 2026",[day("Pzt",9,["Yayla çorba","Hasanpaşa köfte","Erişte","Komposto"],"Bamya yemeği",1022),day("Sal",10,["Mercimek çorba","Macar gulaş","Pirinç pilavı","Yoğurt"],"Türlü",1051),day("Çar",11,["Domates çorba","Nohut yemeği","Bulgur pilavı","Turşu"],"Pırasa yemeği",998),day("Per",12,["Toyga çorba","Körili tavuk","Makarna","Meyve"],"Mantar sote",970),day("Cum",13,["Ezogelin çorba","Etli bezelye","Pirinç pilavı","Cacık"],"Zeytinyağlı bezelye",1004)]],
+["26–30 Ekim","Ekim 2026",[day("Pzt",26,["Tarhana çorba","Kadınbudu köfte","Pirinç pilavı","Salata"],"Sebzeli güveç",1078),day("Sal",27,["Mercimek çorba","Tavuk şinitzel","Makarna","Ayran"],"Mücver",1033),day("Çar",28,["Yayla çorba","Orman kebabı","Bulgur pilavı","Meyve"],"Türlü",1012),day("Per",29,["Resmî tatil"],"",0),day("Cum",30,["Domates çorba","Kıymalı ıspanak","Makarna","Yoğurt"],"Ispanak yemeği",981)]]];
+const lo=t=>t.toLocaleLowerCase("tr").replace(/[çğıöşüâîû]/g,c=>"cgiosuaiu"["çğıöşüâîû".indexOf(c)]);
+const hd=(t,u)=>`<div class="top"><button class="ib" data-back="${u}" aria-label="Geri" style="margin:0 0 0 -12px">${i("back")}</button><div><h2>${t}</h2></div></div>`;
+const sb=q=>`<label class="srch">${i("find")}<input type="search" placeholder="Yemek ara" aria-label="Yemek ara" value="${q}"></label>`;
+const weeks=()=>A.map(([t,m,d],k)=>(k&&A[k-1][1]===m?"":`<div class="mon">${m}</div>`)+`<button class="aw" data-week="${k}"><div class="m"><b>${t}</b><span>${d.map(x=>x[3][1]).filter(Boolean).slice(0,3).join(", ")}…</span></div>${i("next")}</button>`).join("");
+const hits=q=>{const r=[];A.forEach(([t,m,d],k)=>d.forEach(x=>{const f=[...x[3],x[4]].find(y=>lo(y).includes(lo(q)));if(f)r.push([k,x,m,f])}));
+ const mark=f=>{const p=lo(f).indexOf(lo(q));return f.slice(0,p)+"<mark>"+f.slice(p,p+q.length)+"</mark>"+f.slice(p+q.length)};
+ return r.length?`<div class="mon">${r.length} günde çıkmış, son: ${r[0][1][2]} ${r[0][2].split(" ")[0]}</div>`+r.map(([k,x,m,f])=>`<button class="aw" data-week="${k}"><div class="m"><b>${mark(f)}</b><span>${x[2]} ${m} ${x[0]}</span></div>${i("next")}</button>`).join("")
+ :`<div class="ctr" style="padding-top:48px"><div class="ic">${i("find")}</div><h3>Bulunamadı</h3><p>Arşivde bu adla yemek yok.</p></div>`};
+const alist=q=>q.trim()?hits(q.trim()):weeks();
+const arch=(k=0)=>k===2?`<div class="scr">${hd("Arşiv","x")}<div class="ctr"><div class="ic">${i("arc")}</div><h3>Arşiv yeni başlıyor</h3><p>Biten haftalar burada birikecek.</p></div></div>${nav(1)}`
+:`<div class="scr">${hd("Arşiv","x")}${sb(k?"köfte":"")}<div class="list">${alist(k?"köfte":"")}</div></div>${nav(1)}`;
+const aweek=k=>`<div class="scr">${hd(A[k][0],"a")}${A[k][2].map(d=>d[3].length>1?wk(d):`<div class="wk"><div class="d">${d[0]}<b>${d[2]}</b></div><div class="m"><b>${d[3][0]}</b></div></div>`).join("")}</div>${nav(1)}`;
 const S=[["1 · Bugün","Ana yemek tek bakışta. Gün seçici bugünden açılır.",()=>today()],
 ["2 · Hafta","Beş gün tek ekranda. Güne dokununca o günün menüsü açılır.",week],
 ["3 · Menü yok","Hafta sonu ve tatil ayrı metin alır.",none,["Tatil","Hafta sonu"],1],
@@ -162,7 +190,8 @@ const S=[["1 · Bugün","Ana yemek tek bakışta. Gün seçici bugünden açıl�
 ["5 · İlk açılış","Yükleme ve hata. “Tekrar dene” çalışır.",first,["Yükleniyor","Hata"],1],
 ["6 · Ayarlar","Hatırlatıcı saati, tema, dil, kaynak.",sett],
 ["7 · Bildirim ve widget","Yerel hatırlatıcı (2. dilim) ve widget (3. dilim).",home],
-["8 · Bugün, koyu","Aynı ekran, koyu tema.",()=>today()]];
+["8 · Bugün, koyu","Aynı ekran, koyu tema.",()=>today()],
+["9 · Arşiv","Hafta ekranındaki kutu simgesinden açılır. Arama çalışır, haftaya dokununca açılır. Veriler örnek.",arch,["Haftalar","Arama","Boş"],0]];
 const B=document.getElementById("board");
 B.innerHTML=S.map((s,k)=>`<figure data-k="${k}"><figcaption><b>${s[0]}</b><span>${s[1]}</span></figcaption><div class="phone"><div class="in ${k===6?"home":""}"><div class="status"><span>${k===6?"11.30":"12.04"}</span><i></i></div><div class="body">${s[2](s[4])}</div><div class="gest"></div></div></div>${s[3]?`<div class="grp" role="group" aria-label="Durum">${s[3].map((x,j)=>`<button data-st="${j}" aria-pressed="${j===s[4]}">${x}</button>`).join("")}</div>`:""}</figure>`).join("");
 const press=b=>[...b.parentElement.children].forEach(x=>x.setAttribute("aria-pressed",x===b));
@@ -172,11 +201,14 @@ document.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)r
  const f=b.closest("figure"),body=f&&f.querySelector(".body");
  if(b.dataset.v){press(b);const c=b.parentElement.dataset.ctl;c==="pal"?document.body.classList.toggle("yesil",b.dataset.v==="yesil"):theme(b.dataset.v)}
  else if(b.dataset.day){const d=+b.dataset.day;body.innerHTML=today(d);body.querySelector(`[data-day="${d}"]`).focus({focusVisible:false})}
+ else if(b.dataset.week)body.innerHTML=aweek(+b.dataset.week)
+ else if(b.dataset.back){if(b.dataset.back==="a"){body.innerHTML=arch(0);f.querySelectorAll("[data-st]").forEach((x,j)=>x.setAttribute("aria-pressed",j===0))}}
  else if(b.dataset.st){press(b);body.innerHTML=S[+f.dataset.k][2](+b.dataset.st)}
  else if("seg" in b.dataset)press(b);
  else if(b.classList.contains("sw"))b.setAttribute("aria-checked",b.getAttribute("aria-checked")!=="true");
  else if("retry" in b.dataset){body.innerHTML=first(0);setTimeout(()=>body.innerHTML=today(),1100)}
 });
+document.addEventListener("input",e=>{const l=e.target.closest(".scr")?.querySelector(".list");if(l)l.innerHTML=alist(e.target.value.replace(/[<>&"]/g,""))});
 </script>
 </body>
 </html>
