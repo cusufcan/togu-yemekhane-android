@@ -22,8 +22,8 @@ android {
         applicationId = "com.mercan.app"
         minSdk = 25
         targetSdk = 37
-        versionCode = 24
-        versionName = "4.0.0"
+        versionCode = 25
+        versionName = "4.0.1"
     }
 
     buildTypes {
