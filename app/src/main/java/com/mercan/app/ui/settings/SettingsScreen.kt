@@ -66,7 +66,7 @@ import com.mercan.app.ui.components.rememberFormats
 import java.time.LocalTime
 
 private const val SourceUrl = "https://sosyaltesisler.gop.edu.tr/yemekhane_menu.aspx"
-private const val PrivacyUrl = "https://github.com/cusufcan/togu-yemekhane-android/blob/main/PRIVACY.md"
+private const val PrivacyUrl = "https://cusufcan.github.io/yemekhane/privacy.html"
 
 @Composable
 fun SettingsScreen(viewModel: SettingsViewModel = hiltViewModel()) {

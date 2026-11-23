@@ -18,7 +18,7 @@ There is no server and no user account. A small Kotlin program runs on a schedul
 - **Widget:** today's menu on the home screen, following the phone's light or dark theme.
 - **Settings:** a local menu reminder that stays silent on days without a menu, theme, and language (English or Turkish).
 
-A failed download never erases the menu on the device. No account, ads or analytics; see the [privacy policy](PRIVACY.md).
+A failed download never erases the menu on the device. No account, ads or analytics; see the [privacy policy](https://cusufcan.github.io/yemekhane/privacy.html).
 
 ## Screenshots
 
