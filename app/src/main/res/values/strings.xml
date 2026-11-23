@@ -60,6 +60,8 @@
     <string name="language_tr" translatable="false">Türkçe</string>
     <string name="settings_source">Menu source</string>
     <string name="source_host" translatable="false">sosyaltesisler.gop.edu.tr</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_value">Nothing is collected</string>
     <string name="settings_version">Version</string>
     <string name="disclaimer">This is an independent app, not the university\'s official app. Dish names are shown as in the source.</string>
     <string name="notifications_blocked">Notifications are off for this app. Turn them on in system settings.</string>

@@ -66,6 +66,7 @@ import com.mercan.app.ui.components.rememberFormats
 import java.time.LocalTime
 
 private const val SourceUrl = "https://sosyaltesisler.gop.edu.tr/yemekhane_menu.aspx"
+private const val PrivacyUrl = "https://github.com/cusufcan/togu-yemekhane-android/blob/main/PRIVACY.md"
 
 @Composable
 fun SettingsScreen(viewModel: SettingsViewModel = hiltViewModel()) {
@@ -298,6 +299,14 @@ private fun AboutCard() {
             modifier = Modifier.clickable(role = Role.Button) {
                 // Tarayıcısı olmayan telefonda sessizce geç.
                 runCatching { links.openUri(SourceUrl) }
+            },
+        )
+        HorizontalDivider(Modifier.padding(horizontal = 16.dp), color = MaterialTheme.colorScheme.outlineVariant)
+        AboutRow(
+            label = stringResource(R.string.settings_privacy),
+            value = stringResource(R.string.settings_privacy_value),
+            modifier = Modifier.clickable(role = Role.Button) {
+                runCatching { links.openUri(PrivacyUrl) }
             },
         )
         HorizontalDivider(Modifier.padding(horizontal = 16.dp), color = MaterialTheme.colorScheme.outlineVariant)

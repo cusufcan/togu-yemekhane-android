@@ -57,6 +57,8 @@
     <string name="settings_language">Dil</string>
     <string name="language_system">Sistem</string>
     <string name="settings_source">Menü kaynağı</string>
+    <string name="settings_privacy">Gizlilik</string>
+    <string name="settings_privacy_value">Veri toplanmaz</string>
     <string name="settings_version">Sürüm</string>
     <string name="disclaimer">Bağımsız bir uygulamadır, üniversitenin resmî uygulaması değildir. Yemek adları kaynaktaki gibi gösterilir.</string>
     <string name="notifications_blocked">Bu uygulamanın bildirimleri kapalı. Sistem ayarlarından açabilirsin.</string>
