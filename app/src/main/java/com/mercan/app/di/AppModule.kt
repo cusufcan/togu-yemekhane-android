@@ -24,13 +24,19 @@ import kotlinx.coroutines.SupervisorJob
 import java.time.Clock
 import javax.inject.Singleton
 
+// 3.x aynı paketle kurulu ve dosyaları güncellemede yerinde kalır. Sürümlü adlar,
+// onun bıraktığı bir veri tabanının ya da ayar dosyasının yanlışlıkla açılmasını önler.
+private const val DATABASE = "menu_v4.db"
+private const val SETTINGS = "settings_v4"
+private const val REFRESH = "refresh_v4"
+
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
     @Provides
     @Singleton
     fun database(@ApplicationContext context: Context): MenuDatabase =
-        Room.databaseBuilder(context, MenuDatabase::class.java, "menu.db").build()
+        Room.databaseBuilder(context, MenuDatabase::class.java, DATABASE).build()
 
     @Provides
     fun menuDao(database: MenuDatabase): MenuDao = database.menuDao()
@@ -38,12 +44,12 @@ object AppModule {
     @Provides
     @Singleton
     @SettingsPreferences
-    fun settingsPreferences(@ApplicationContext context: Context) = preferences(context, "settings")
+    fun settingsPreferences(@ApplicationContext context: Context) = preferences(context, SETTINGS)
 
     @Provides
     @Singleton
     @RefreshPreferences
-    fun refreshPreferences(@ApplicationContext context: Context) = preferences(context, "refresh")
+    fun refreshPreferences(@ApplicationContext context: Context) = preferences(context, REFRESH)
 
     /** Dosya bozulursa uygulama çökmez, varsayılanlarla açılır. */
     private fun preferences(context: Context, name: String): DataStore<Preferences> =

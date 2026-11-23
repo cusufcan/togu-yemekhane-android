@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Android 11 ve öncesi için aynı kural (data_extraction_rules.xml ile eş tutulur). -->
 <full-backup-content>
-    <include domain="file" path="datastore/settings.preferences_pb" />
+    <include domain="file" path="datastore/settings_v4.preferences_pb" />
     <include domain="file" path="androidx.appcompat.app.AppCompatDelegate.application_locales_record_file" />
 </full-backup-content>
