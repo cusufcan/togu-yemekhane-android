@@ -1,5 +1,6 @@
 package com.mercan.app.ui.components
 
+import android.content.Context
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.remember
@@ -56,6 +57,16 @@ class Formats(
         else "${dayMonth(start)} – ${dayMonth(end)}"
     }
 }
+
+/** Ekran dışında (widget) kullanılan karşılığı. */
+fun formatsOf(context: Context) = Formats(
+    tag = context.getString(R.string.language_tag),
+    day = context.getString(R.string.format_day),
+    dayMonth = context.getString(R.string.format_day_month),
+    month = context.getString(R.string.format_month),
+    hit = context.getString(R.string.format_hit),
+    time = context.getString(R.string.format_time),
+)
 
 @Composable
 fun rememberFormats(): Formats {

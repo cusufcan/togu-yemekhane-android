@@ -67,6 +67,16 @@
     <string name="action_cancel">Cancel</string>
     <string name="reminder_channel">Menu reminder</string>
     <string name="reminder_title">Today: %1$s</string>
+    <string name="widget_label">Today\'s menu</string>
+    <string name="widget_description">Shows today\'s menu on your home screen.</string>
+    <string name="widget_calories">%1$s kcal</string>
+    <string name="widget_weekend_body">The new week starts on Monday.</string>
+    <string name="widget_missing_title">No menu yet</string>
+    <string name="widget_missing_body">Tap to refresh.</string>
+    <string name="widget_preview_date">Monday, 23 November</string>
+    <string name="widget_preview_calories">1,056 kcal</string>
+    <string name="widget_preview_title" translatable="false">Hasanpaşa köfte</string>
+    <string name="widget_preview_rest" translatable="false">Ezogelin çorba\nBulgur pilavı\nÇikolatalı puding</string>
     <plurals name="archive_hits">
         <item quantity="one">Served on %1$d day, last: %2$s</item>
         <item quantity="other">Served on %1$d days, last: %2$s</item>

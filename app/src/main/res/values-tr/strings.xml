@@ -64,6 +64,14 @@
     <string name="action_cancel">Vazgeç</string>
     <string name="reminder_channel">Menü hatırlatıcısı</string>
     <string name="reminder_title">Bugün: %1$s</string>
+    <string name="widget_label">Bugünün menüsü</string>
+    <string name="widget_description">Bugünün menüsünü ana ekranda gösterir.</string>
+    <string name="widget_calories">%1$s kcal</string>
+    <string name="widget_weekend_body">Yeni hafta pazartesi başlıyor.</string>
+    <string name="widget_missing_title">Menü henüz yok</string>
+    <string name="widget_missing_body">Yenilemek için dokun.</string>
+    <string name="widget_preview_date">23 Kasım Pazartesi</string>
+    <string name="widget_preview_calories">1.056 kcal</string>
     <plurals name="archive_hits">
         <item quantity="one">%1$d günde çıkmış, son: %2$s</item>
         <item quantity="other">%1$d günde çıkmış, son: %2$s</item>

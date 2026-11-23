@@ -13,6 +13,7 @@ There is no server and no user account. A small Kotlin program runs on a schedul
 - **Today:** the main dish, the other dishes, the vegetarian option and the calories of the day.
 - **Week:** the whole week; a day opens in Today.
 - **Archive:** finished weeks and a search that shows when a dish was served. Works offline once downloaded.
+- **Widget:** today's menu on the home screen, following the phone's light or dark theme.
 - **Settings:** a local menu reminder that stays silent on days without a menu, theme, and language (English or Turkish).
 
 A failed download never erases the menu on the device.

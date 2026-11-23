@@ -3,15 +3,12 @@ package com.mercan.app.platform
 import android.Manifest
 import android.app.NotificationChannel
 import android.app.NotificationManager
-import android.app.PendingIntent
 import android.content.Context
-import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
-import com.mercan.app.MainActivity
 import com.mercan.app.R
 import com.mercan.app.domain.DayMenu
 import com.mercan.app.domain.asSentence
@@ -41,12 +38,6 @@ class ReminderNotification @Inject constructor(@ApplicationContext private val c
                 ),
             )
         }
-        val open = PendingIntent.getActivity(
-            context,
-            0,
-            Intent(context, MainActivity::class.java),
-            PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT,
-        )
         val rest = plate.rest.asSentence()
         manager.notify(
             ID,
@@ -55,7 +46,7 @@ class ReminderNotification @Inject constructor(@ApplicationContext private val c
                 .setContentTitle(localized.getString(R.string.reminder_title, main))
                 .setContentText(rest)
                 .setStyle(NotificationCompat.BigTextStyle().bigText(rest))
-                .setContentIntent(open)
+                .setContentIntent(openAppIntent(context))
                 .setAutoCancel(true)
                 .build(),
         )

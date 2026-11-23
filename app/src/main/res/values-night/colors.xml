@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="seyir_splash_background">#151218</color>
+    <color name="seyir_widget_background">#151218</color>
+    <color name="seyir_widget_title">#E7E0EE</color>
+    <color name="seyir_widget_text">#CDC2D8</color>
 </resources>

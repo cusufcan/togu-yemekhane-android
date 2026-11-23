@@ -40,16 +40,23 @@ class ReminderReceiver : Hilt_ReminderReceiver() {
     }
 }
 
-/** Telefon açılınca, saat değişince ve güncellemeden sonra hatırlatıcıyı yeniden kurar. */
+/** Telefon açılınca, saat ya da dil değişince ve güncellemeden sonra hatırlatıcıyı ve widget'ı tazeler. */
 @AndroidEntryPoint(BroadcastReceiver::class)
 class BootReceiver : Hilt_BootReceiver() {
     @Inject lateinit var scheduler: ReminderScheduler
+
+    @Inject lateinit var widgets: WidgetUpdater
 
     @Inject @AppScope lateinit var scope: CoroutineScope
 
     override fun onReceive(context: Context, intent: Intent) {
         super.onReceive(context, intent)
-        if (intent.action in SyncActions) finishLater(scope) { scheduler.sync() }
+        if (intent.action in SyncActions) {
+            finishLater(scope) {
+                scheduler.sync()
+                widgets.update()
+            }
+        }
     }
 }
 
@@ -58,9 +65,10 @@ private val SyncActions = setOf(
     Intent.ACTION_MY_PACKAGE_REPLACED,
     Intent.ACTION_TIMEZONE_CHANGED,
     Intent.ACTION_TIME_CHANGED,
+    Intent.ACTION_LOCALE_CHANGED,
 )
 
-private fun BroadcastReceiver.finishLater(scope: CoroutineScope, work: suspend () -> Unit) {
+internal fun BroadcastReceiver.finishLater(scope: CoroutineScope, work: suspend () -> Unit) {
     val pending = goAsync()
     scope.launch {
         try {
