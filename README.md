@@ -24,8 +24,8 @@ A failed download never erases the menu on the device. No account, ads or analyt
 
 ## Screenshots
 
-![Today, Week and Archive screens](docs/images/screens-menu.png)
-![Menu reminder, home screen widget and dark theme](docs/images/screens-more.png)
+![Today, Week and Archive screens](.github/images/screens-menu.png)
+![Menu reminder, home screen widget and dark theme](.github/images/screens-more.png)
 
 ## How it is built
 
